@@ -77,8 +77,8 @@
 	// Copy or Update the VideoConfig File;
    
     NSString *domain = appDelegate.DomainName;
-    NSString *queryFeed = [NSString stringWithFormat:@"%@/iosStreamv2/Chemistry/ChemistryConfig.xml",domain];
-    NSString *Dir = [appDelegate.applicationDocumentsDirectory stringByAppendingPathComponent:@"ChemistryConfig.xml"];
+    NSString *queryFeed = [NSString stringWithFormat:@"%@/iosStreamv2/Biology/BiologyConfig.xml",domain];
+    NSString *Dir = [appDelegate.applicationDocumentsDirectory stringByAppendingPathComponent:@"BiologyConfig.xml"];
     
          
    
@@ -159,7 +159,7 @@
     
     
         
-    NSString *Dir = [appDelegate.applicationDocumentsDirectory stringByAppendingPathComponent:@"ChemistryConfig.xml"]; 
+    NSString *Dir = [appDelegate.applicationDocumentsDirectory stringByAppendingPathComponent:@"BiologyConfig.xml"];
    [self MyParser:Dir];
     
     
@@ -209,7 +209,7 @@
     AppDelegate *appDelegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
     //NSLog(@"%@", appDelegate.TempSubscibedProducts);
    
-    NSString *Dir = [appDelegate.applicationDocumentsDirectory stringByAppendingPathComponent:@"ChemistryConfig.xml"];
+    NSString *Dir = [appDelegate.applicationDocumentsDirectory stringByAppendingPathComponent:@"BiologyConfig.xml"];
     //[self AdjustProductSubscribedTo];
      FullSubscription = appDelegate.AccessAll;
      //NSLog(@"%@", appDelegate.TempSubscibedProducts);
@@ -240,7 +240,7 @@
     
     AppDelegate *appDelegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
     NSString *domain = appDelegate.DomainName;
-    NSString *queryFeed = [NSString stringWithFormat:@"%@/iosStreamv2/Chemistry/ChemistryConfig.xml", domain];
+    NSString *queryFeed = [NSString stringWithFormat:@"%@/iosStreamv2/Biology/BiologyConfig.xml", domain];
 	NSURLRequest *theRequest = [NSURLRequest requestWithURL:[NSURL URLWithString:queryFeed]];
     NSURLResponse *resp = nil; 
     NSError *err = nil;

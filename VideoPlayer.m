@@ -53,7 +53,7 @@
     
     AppDelegate *appDelegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
     domain = appDelegate.DomainName;
-    ServerLocation = [NSString stringWithFormat:@"%@/iosStreamv2/Chemistry/",domain];
+    ServerLocation = [NSString stringWithFormat:@"%@/iosStreamv2/Biology/",domain];
 	
     NSError *error;
     // Report to  analytics

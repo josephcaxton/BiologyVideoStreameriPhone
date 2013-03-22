@@ -151,6 +151,8 @@
 		7CC263B816F88EE200868246 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CC263B416F88EE100868246 /* Icon@2x.png */; };
 		7CC263BB16F88FD600868246 /* website_promo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CC263B916F88FD500868246 /* website_promo.png */; };
 		7CC263BC16F88FD600868246 /* website_promo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CC263BA16F88FD500868246 /* website_promo@2x.png */; };
+		7CEA7D1C16FC7F9200DB5C0B /* LearnersCloudTermsonapps.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7CEA7D1A16FC7F9200DB5C0B /* LearnersCloudTermsonapps.pdf */; };
+		7CEA7D1D16FC7F9200DB5C0B /* HowtouseVideoStreamer.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7CEA7D1B16FC7F9200DB5C0B /* HowtouseVideoStreamer.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -338,6 +340,8 @@
 		7CC263B416F88EE100868246 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		7CC263B916F88FD500868246 /* website_promo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = website_promo.png; sourceTree = "<group>"; };
 		7CC263BA16F88FD500868246 /* website_promo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "website_promo@2x.png"; sourceTree = "<group>"; };
+		7CEA7D1A16FC7F9200DB5C0B /* LearnersCloudTermsonapps.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = LearnersCloudTermsonapps.pdf; sourceTree = "<group>"; };
+		7CEA7D1B16FC7F9200DB5C0B /* HowtouseVideoStreamer.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = HowtouseVideoStreamer.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -614,6 +618,8 @@
 				7CC2634C16F882F200868246 /* 73.png */,
 				7CC2634D16F882F200868246 /* 74.png */,
 				7CC2634E16F882F200868246 /* 75.png */,
+				7CEA7D1A16FC7F9200DB5C0B /* LearnersCloudTermsonapps.pdf */,
+				7CEA7D1B16FC7F9200DB5C0B /* HowtouseVideoStreamer.pdf */,
 			);
 			name = "Video Images";
 			sourceTree = "<group>";
@@ -825,6 +831,8 @@
 				7CC263B816F88EE200868246 /* Icon@2x.png in Resources */,
 				7CC263BB16F88FD600868246 /* website_promo.png in Resources */,
 				7CC263BC16F88FD600868246 /* website_promo@2x.png in Resources */,
+				7CEA7D1C16FC7F9200DB5C0B /* LearnersCloudTermsonapps.pdf in Resources */,
+				7CEA7D1D16FC7F9200DB5C0B /* HowtouseVideoStreamer.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

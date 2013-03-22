@@ -210,6 +210,7 @@
     AppDelegate *appDelegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
     NSString *domainURL = appDelegate.DomainName;
     
+     if (appDelegate.UserEmail != nil){
     
     NSString *queryString = [NSString stringWithFormat:@"%@/Services/iOS/VideoSubscription.asmx/RecordVideoActivity",domainURL];
     
@@ -235,11 +236,11 @@
     
     //NSLog(@"%@",[Mutabletime stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]);
     
-    NSString *AppId = @"64";   // 64 means this is Chemistry
+    NSString *AppId = @"67";   // 67 means this is Biology
     NSString *Starting = isStarting ? @"True" : @"False";
     NSString *ClipURN = self.VideoFileName;
     
-    NSString *FullString = [NSString stringWithFormat:@"DeviceID=%@&AppID=%@&clipURN=%@&isStart=%@&eventTime=%@",deviceID,AppId,ClipURN,Starting,Mutabletime];
+     NSString *FullString = [NSString stringWithFormat:@"DeviceID=%@&AppID=%@&clipURN=%@&isStart=%@&eventTime=%@",appDelegate.UserEmail,AppId,ClipURN,Starting,Mutabletime];
     
     
     NSData* data=[FullString dataUsingEncoding:NSUTF8StringEncoding];
@@ -261,7 +262,7 @@
         NSLog(@"error while starting the connection");
     }
     
-    
+     }
     
 }
 

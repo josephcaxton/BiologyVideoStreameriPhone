@@ -967,6 +967,7 @@
 					"\"$(SRCROOT)\"",
 				);
 				PRODUCT_NAME = GCSE;
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -974,6 +975,8 @@
 		7CC2626216F8801000868246 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Theta Computer Services Limited";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Theta Computer Services Limited";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BiologyVideoStreameriPhone/BiologyVideoStreameriPhone-Prefix.pch";
 				INFOPLIST_FILE = "BiologyVideoStreameriPhone/BiologyVideoStreameriPhone-Info.plist";
@@ -983,6 +986,9 @@
 					"\"$(SRCROOT)\"",
 				);
 				PRODUCT_NAME = GCSE;
+				PROVISIONING_PROFILE = "862DB4E9-84B1-48F9-B1C3-AB045D92CAD8";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "862DB4E9-84B1-48F9-B1C3-AB045D92CAD8";
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

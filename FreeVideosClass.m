@@ -324,7 +324,7 @@
             obj.SociallyFree = NO; 
         }
 
-        obj.ProductID = @"Chemistry";
+        obj.ProductID = @"Biology";
         //NSLog(@"Product is: %@",obj.ProductID);
         /*for (int i = 0; i < ProductsSubscibedTo.count; i++) {
             
@@ -590,7 +590,7 @@
         MFMailComposeViewController *SendMailcontroller = [[MFMailComposeViewController alloc]init];
         SendMailcontroller.mailComposeDelegate = self;
         [SendMailcontroller setToRecipients:SendTo];
-        [SendMailcontroller setSubject:[NSString stringWithFormat:@"%@ Chemistry video streaming iPhone",DeviceID]];
+        [SendMailcontroller setSubject:[NSString stringWithFormat:@"%@ Biology video streaming iPhone",DeviceID]];
         
         [SendMailcontroller setMessageBody:[NSString stringWithFormat:@"Add message here "] isHTML:NO];
         [self presentModalViewController:SendMailcontroller animated:YES];
@@ -662,16 +662,16 @@
     
     // Report to  analytics
     NSError *error;
-    if (![[GANTracker sharedTracker] trackEvent:@"User Sent to Review Chemistry Videos iPhone at app store"
-                                         action:@"User Sent to Review Chemistry Videos iPhone at app store"
-                                          label:@"User Sent to Review Chemistry Videos iPhone at app store"
+    if (![[GANTracker sharedTracker] trackEvent:@"User Sent to Review Biology Videos iPhone at app store"
+                                         action:@"User Sent to Review Biology Videos iPhone at app store"
+                                          label:@"User Sent to Review Biology Videos iPhone at app store"
                                           value:1
                                       withError:&error]) {
         NSLog(@"error in trackEvent");
     }
     
     
-    NSString *str = @"https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/addUserReview?id=555317767&type=Purple+Software"; 
+    NSString *str = @"https://itunes.apple.com/us/app/gcse-biology-tutor-videos/id626166113?ls=1&mt=8";
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:str]];
 }
 

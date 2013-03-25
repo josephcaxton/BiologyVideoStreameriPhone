@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C2BECFB1700A73E00D3CEA3 /* GCSE-Biology-Exam-Board-OCR-Gateway.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7C2BECF71700A73E00D3CEA3 /* GCSE-Biology-Exam-Board-OCR-Gateway.pdf */; };
+		7C2BECFC1700A73E00D3CEA3 /* GCSE-Biology-Exam-Board-OCR-21st-Century.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7C2BECF81700A73E00D3CEA3 /* GCSE-Biology-Exam-Board-OCR-21st-Century.pdf */; };
+		7C2BECFD1700A73E00D3CEA3 /* GCSE-Biology-Exam-Board-Edexcel.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7C2BECF91700A73E00D3CEA3 /* GCSE-Biology-Exam-Board-Edexcel.pdf */; };
+		7C2BECFE1700A73E00D3CEA3 /* GCSE-Biology-Exam-Board-AQA.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7C2BECFA1700A73E00D3CEA3 /* GCSE-Biology-Exam-Board-AQA.pdf */; };
 		7CC2623316F8801000868246 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CC2623216F8801000868246 /* UIKit.framework */; };
 		7CC2623516F8801000868246 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CC2623416F8801000868246 /* Foundation.framework */; };
 		7CC2623716F8801000868246 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CC2623616F8801000868246 /* CoreGraphics.framework */; };
@@ -156,7 +160,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7CC2622F16F8801000868246 /* BiologyVideoStreameriPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiologyVideoStreameriPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C2BECF71700A73E00D3CEA3 /* GCSE-Biology-Exam-Board-OCR-Gateway.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "GCSE-Biology-Exam-Board-OCR-Gateway.pdf"; sourceTree = "<group>"; };
+		7C2BECF81700A73E00D3CEA3 /* GCSE-Biology-Exam-Board-OCR-21st-Century.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "GCSE-Biology-Exam-Board-OCR-21st-Century.pdf"; sourceTree = "<group>"; };
+		7C2BECF91700A73E00D3CEA3 /* GCSE-Biology-Exam-Board-Edexcel.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "GCSE-Biology-Exam-Board-Edexcel.pdf"; sourceTree = "<group>"; };
+		7C2BECFA1700A73E00D3CEA3 /* GCSE-Biology-Exam-Board-AQA.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "GCSE-Biology-Exam-Board-AQA.pdf"; sourceTree = "<group>"; };
+		7CC2622F16F8801000868246 /* GCSE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCSE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CC2623216F8801000868246 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7CC2623416F8801000868246 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7CC2623616F8801000868246 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -389,7 +397,7 @@
 		7CC2623016F8801000868246 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7CC2622F16F8801000868246 /* BiologyVideoStreameriPhone.app */,
+				7CC2622F16F8801000868246 /* GCSE.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -658,6 +666,10 @@
 		7CC262EF16F8826200868246 /* Files */ = {
 			isa = PBXGroup;
 			children = (
+				7C2BECF71700A73E00D3CEA3 /* GCSE-Biology-Exam-Board-OCR-Gateway.pdf */,
+				7C2BECF81700A73E00D3CEA3 /* GCSE-Biology-Exam-Board-OCR-21st-Century.pdf */,
+				7C2BECF91700A73E00D3CEA3 /* GCSE-Biology-Exam-Board-Edexcel.pdf */,
+				7C2BECFA1700A73E00D3CEA3 /* GCSE-Biology-Exam-Board-AQA.pdf */,
 			);
 			name = Files;
 			sourceTree = "<group>";
@@ -688,7 +700,7 @@
 			);
 			name = BiologyVideoStreameriPhone;
 			productName = BiologyVideoStreameriPhone;
-			productReference = 7CC2622F16F8801000868246 /* BiologyVideoStreameriPhone.app */;
+			productReference = 7CC2622F16F8801000868246 /* GCSE.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -833,6 +845,10 @@
 				7CC263BC16F88FD600868246 /* website_promo@2x.png in Resources */,
 				7CEA7D1C16FC7F9200DB5C0B /* LearnersCloudTermsonapps.pdf in Resources */,
 				7CEA7D1D16FC7F9200DB5C0B /* HowtouseVideoStreamer.pdf in Resources */,
+				7C2BECFB1700A73E00D3CEA3 /* GCSE-Biology-Exam-Board-OCR-Gateway.pdf in Resources */,
+				7C2BECFC1700A73E00D3CEA3 /* GCSE-Biology-Exam-Board-OCR-21st-Century.pdf in Resources */,
+				7C2BECFD1700A73E00D3CEA3 /* GCSE-Biology-Exam-Board-Edexcel.pdf in Resources */,
+				7C2BECFE1700A73E00D3CEA3 /* GCSE-Biology-Exam-Board-AQA.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -950,7 +966,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GCSE;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -966,7 +982,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GCSE;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

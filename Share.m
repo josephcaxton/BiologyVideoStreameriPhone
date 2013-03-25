@@ -285,9 +285,9 @@
         MFMailComposeViewController *SendMailcontroller = [[MFMailComposeViewController alloc]init];
         SendMailcontroller.mailComposeDelegate = self;
         //[SendMailcontroller setToRecipients:SendTo];
-        [SendMailcontroller setSubject:@"Learn and revise GCSE Chemistry on the go - Chemistry App"];
+        [SendMailcontroller setSubject:@"Learn and revise GCSE Biology on the go - Biology App"];
         
-        [SendMailcontroller setMessageBody:[NSString stringWithFormat:@"Checkout the FREE LearnersCloud Video App loaded with quality revision videos. To download this App for iPad <a href=http://itunes.apple.com/us/app/gcse-chemistry-videos./id554591114?ls=1&mt=8> click here </a>. For iPhone <a href=http://itunes.apple.com/us/app/gcse-chemistry-videos/id555317767?ls=1&mt=8> click here</a>. Or search LearnersCloud in your device’s App store. For loads more: www.Learnerscloud.com"] isHTML:YES];
+        [SendMailcontroller setMessageBody:[NSString stringWithFormat:@"Checkout the FREE LearnersCloud Video App loaded with quality revision videos. To download this App for iPad <a href=https://itunes.apple.com/us/app/gcse-biology-revision-videos/id620329770?ls=1&mt=8> click here </a>. For iPhone <a href=https://itunes.apple.com/us/app/gcse-biology-tutor-videos/id626166113?ls=1&mt=8> click here</a>. Or search LearnersCloud in your device’s App store. For loads more: www.Learnerscloud.com"] isHTML:YES];
         [self presentModalViewController:SendMailcontroller animated:YES];
         
 		
@@ -327,9 +327,9 @@
         
         NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
         // Give user one free video.
-        if(![prefs objectForKey:@"AddOneFreeChemistry"]){
+        if(![prefs objectForKey:@"AddOneFreeBiology"]){
             
-            [prefs setObject:@"1" forKey:@"AddOneFreeChemistry"];
+            [prefs setObject:@"1" forKey:@"AddOneFreeBiology"];
             [prefs synchronize];
             
         }
@@ -346,7 +346,7 @@
 
 -(void)ConnectToFaceBook {
     
-    facebook = [[Facebook alloc] initWithAppId:@"179272212207781" andDelegate:self];
+    facebook = [[Facebook alloc] initWithAppId:@"350380661729414" andDelegate:self];
     
     //Save a pointer to this object for return from facebook
     AppDelegate *appDelegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
@@ -366,7 +366,7 @@
     }
     
     NSMutableDictionary* params = [NSMutableDictionary dictionaryWithObjectsAndKeys:
-                                   @"I’ve just started using a new GCSE Chemistry videos App! Hundreds of quality Chemistry videos. You should check it out, or search LearnersCloud in your device’s App store.",  @"message",
+                                   @"I’ve just started using a new GCSE Biology videos App! Hundreds of quality Biology videos. You should check it out, or search LearnersCloud in your device’s App store.",  @"message",
                                    nil];
     
     [facebook dialog:@"apprequests"
@@ -394,7 +394,7 @@
 
 - (void) logoutButtonClicked:(id)sender {
     
-    facebook = [[Facebook alloc] initWithAppId:@"179272212207781" andDelegate:self];
+    facebook = [[Facebook alloc] initWithAppId:@"350380661729414" andDelegate:self];
     //Save a pointer to this object for return from facebook
     AppDelegate *appDelegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
     appDelegate.m_facebook = facebook;
@@ -444,10 +444,10 @@
     
     NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
     // Give user one free video.
-    if(![prefs objectForKey:@"AddOneFreeChemistry"]){
+    if(![prefs objectForKey:@"AddOneFreeBiology"]){
         
         
-        [prefs setObject:@"1" forKey:@"AddOneFreeChemistry"];
+        [prefs setObject:@"1" forKey:@"AddOneFreeBiology"];
         [prefs synchronize];
         
     }
@@ -473,10 +473,10 @@
     
     if ([TWTweetComposeViewController canSendTweet])
     {
-        NSString *UrlString = @"http://itunes.apple.com/us/app/gcse-chemistry-videos/id555317767?ls=1&mt=8";
+        NSString *UrlString = @"https://itunes.apple.com/us/app/gcse-biology-tutor-videos/id626166113?ls=1&mt=8";
         
         TWTweetComposeViewController *tweetSheet = [[TWTweetComposeViewController alloc] init];
-        [tweetSheet setInitialText:@"Checkout @LearnersCloud #GCSE Chemistry video app. Learn and revise Chemistry on the go."];
+        [tweetSheet setInitialText:@"Checkout @LearnersCloud #GCSE Biology video app. Learn and revise Biology on the go."];
         [tweetSheet addImage:[UIImage imageNamed:@"Icon.png"]];
         [tweetSheet addURL:[NSURL URLWithString:UrlString]];
         
@@ -501,9 +501,9 @@
                     }
 
                     // Give user one free video.
-                    if(![prefs objectForKey:@"AddOneFreeChemistry"]){
+                    if(![prefs objectForKey:@"AddOneFreeBiology"]){
                         
-                        [prefs setObject:@"1" forKey:@"AddOneFreeChemistry"];
+                        [prefs setObject:@"1" forKey:@"AddOneFreeBiology"];
                         [prefs synchronize];
                         
                     }

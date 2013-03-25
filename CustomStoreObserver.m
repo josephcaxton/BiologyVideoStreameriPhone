@@ -172,29 +172,29 @@
     // Only 1 month to 1 Year subscription supported
     
     
-    if ([[theProductID lowercaseString] isEqualToString:@"chemistryiphone1month"] ){
+    if ([[theProductID lowercaseString] isEqualToString:@"biologyiphone1month"] ){
         
         return @"31";
         
     }
     
-    else if ([[theProductID lowercaseString] isEqualToString:@"chemistryiphonemonths"] ){ // Type at apple I did not add 3 to the string
+    else if ([[theProductID lowercaseString] isEqualToString:@"biologyiphonemonths"] ){ // Type at apple I did not add 3 to the string
         
         return @"93";
         
     }
-    else if ([[theProductID lowercaseString] isEqualToString:@"chemistryiphone6months"] ){
+    else if ([[theProductID lowercaseString] isEqualToString:@"biologyiphone6months"] ){
         
         return @"186";
         
     }
     
-    else if ([[theProductID lowercaseString] isEqualToString:@"chemistryiphone9months"] ){
+    else if ([[theProductID lowercaseString] isEqualToString:@"biologyiphone9months"] ){
         
         return @"279";
         
     }
-    else if ([[theProductID lowercaseString] isEqualToString:@"chemistryiphone12months"] ){
+    else if ([[theProductID lowercaseString] isEqualToString:@"biologyiphone12months"] ){
         
         return @"372";
         
@@ -409,7 +409,7 @@
     NSURL *url = [NSURL URLWithString:queryString];
     NSMutableURLRequest *req = [NSMutableURLRequest requestWithURL:url];
     
-    VerificationAppID = @"6"; //Chemistry iPhone
+    VerificationAppID = @"12"; //Biology iPhone
     
     NSString *FullString = [NSString stringWithFormat:@"productIdentifier=%@&DeviceID=%@&days=%@&transactionIdentifier=%@&B64receipt=%@&email=%@&password=%@&AppID=%@",FinalProductID,MyDeviceId,SubscriptionInDays,TransactionID,EncodedReceipt,EmailAddress,Password,VerificationAppID];
     

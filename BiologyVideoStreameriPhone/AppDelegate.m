@@ -19,7 +19,7 @@
 
 // Dispatch period in seconds
 static const NSInteger kGANDispatchPeriodSec = 10;
-static NSString* const kAnalyticsAccountId = @"UA-34210077-1";
+static NSString* const kAnalyticsAccountId = @"UA-39286283-1";
 
 @implementation AppDelegate
 
@@ -69,7 +69,7 @@ static NSString* const kAnalyticsAccountId = @"UA-34210077-1";
     NSString *DeviceID = [prefs stringForKey:@"LCUIID"];
     
     //testing
-    //[prefs setObject:@"0" forKey:@"AddOneFreeChemistry"];
+    //[prefs setObject:@"0" forKey:@"AddOneFreeBiology"];
     //[prefs synchronize];
     
     if (DeviceID == nil) {
@@ -134,7 +134,7 @@ static NSString* const kAnalyticsAccountId = @"UA-34210077-1";
      NSLog(@"error in setCustomVariableAtIndex");
      } */
     
-    if (![[GANTracker sharedTracker] trackEvent:@"Chemistry Video Streamer Started"
+    if (![[GANTracker sharedTracker] trackEvent:@"Biology Video Streamer Started"
                                          action:@"Launch iOS"
                                           label:@"Launch iOS"
                                           value:1
@@ -477,7 +477,7 @@ static NSString* const kAnalyticsAccountId = @"UA-34210077-1";
 //Return True is file does not exist in device -- so download from server;
 // Return True if the file exist but version is defferent--- So we need to download the file;
 // Return false if the file is same version --- so don't download;
--(BOOL)downloadfileifUpdated:(NSString*)urLString location:(NSString*)LocalFileLocation {
+-(BOOL)downloadfileifUpdated:(NSString*)urLString location:(NSString*)LocalFileLocation  {
     
     //DLog(@"Downloading HTTP header from: %@", urlString);
     

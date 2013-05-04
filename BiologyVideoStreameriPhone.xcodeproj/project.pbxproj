@@ -48,7 +48,6 @@
 		7CC262B716F881A000868246 /* share_intro.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CC2629A16F881A000868246 /* share_intro.png */; };
 		7CC262F316F8829D00868246 /* ListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC262F216F8828200868246 /* ListCell.m */; };
 		7CC262F416F882C400868246 /* ConfigObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC262DA16F8820600868246 /* ConfigObject.m */; };
-		7CC262F516F882C400868246 /* LearnersCloudSamplesVideos.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC262C916F881E600868246 /* LearnersCloudSamplesVideos.m */; };
 		7CC262F616F882C400868246 /* AdminDashBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC262CB16F881E600868246 /* AdminDashBoard.m */; };
 		7CC262F716F882C400868246 /* Report.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC262CD16F881E600868246 /* Report.m */; };
 		7CC262F816F882C400868246 /* Help.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC262CF16F881E600868246 /* Help.m */; };
@@ -144,7 +143,6 @@
 		7CC263A516F888D700868246 /* TabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC2639F16F8876000868246 /* TabBar.m */; };
 		7CC263A616F888D700868246 /* UnderlinedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC263A116F8876000868246 /* UnderlinedButton.m */; };
 		7CC263A716F888D700868246 /* ActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC263A316F8876000868246 /* ActivityIndicator.m */; };
-		7CC263A816F8891900868246 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CC263A416F8876000868246 /* MainWindow.xib */; };
 		7CC263AB16F88B4000868246 /* TV_biology_header.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CC263A916F88B4000868246 /* TV_biology_header.png */; };
 		7CC263AC16F88B4000868246 /* TV_biology_header@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CC263AA16F88B4000868246 /* TV_biology_header@2x.png */; };
 		7CC263AF16F88DBE00868246 /* hero_biology.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CC263AD16F88DBE00868246 /* hero_biology.png */; };
@@ -157,6 +155,18 @@
 		7CC263BC16F88FD600868246 /* website_promo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CC263BA16F88FD500868246 /* website_promo@2x.png */; };
 		7CEA7D1C16FC7F9200DB5C0B /* LearnersCloudTermsonapps.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7CEA7D1A16FC7F9200DB5C0B /* LearnersCloudTermsonapps.pdf */; };
 		7CEA7D1D16FC7F9200DB5C0B /* HowtouseVideoStreamer.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7CEA7D1B16FC7F9200DB5C0B /* HowtouseVideoStreamer.pdf */; };
+		7CF81A671735AFFD00ADB961 /* subscribe.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CF81A661735AFFD00ADB961 /* subscribe.png */; };
+		7CF81A691735B01200ADB961 /* 70-tv.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CF81A681735B01200ADB961 /* 70-tv.png */; };
+		7CF81A6D1735B04C00ADB961 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CF81A6C1735B04C00ADB961 /* MainWindow.xib */; };
+		7CF81A761735B08000ADB961 /* Maths.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CF81A701735B08000ADB961 /* Maths.png */; };
+		7CF81A771735B08000ADB961 /* English.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CF81A711735B08000ADB961 /* English.png */; };
+		7CF81A781735B08000ADB961 /* Physics.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CF81A721735B08000ADB961 /* Physics.png */; };
+		7CF81A791735B08000ADB961 /* Biology.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CF81A731735B08000ADB961 /* Biology.png */; };
+		7CF81A7A1735B08000ADB961 /* Chemistry.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CF81A741735B08000ADB961 /* Chemistry.png */; };
+		7CF81A7B1735B08000ADB961 /* Testimonial.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CF81A751735B08000ADB961 /* Testimonial.png */; };
+		7CF81A7D1735B09300ADB961 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CF81A7C1735B09300ADB961 /* AVFoundation.framework */; };
+		7CF81A7E1735B0AD00ADB961 /* LearnersCloudSamplesVideos.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF81A6B1735B02D00ADB961 /* LearnersCloudSamplesVideos.m */; };
+		7CF81A7F1735B0AD00ADB961 /* TrailerPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF81A6F1735B06300ADB961 /* TrailerPlayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -218,8 +228,6 @@
 		7CC262C416F881C900868246 /* CustomCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
 		7CC262C516F881C900868246 /* Share.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Share.h; sourceTree = "<group>"; };
 		7CC262C616F881C900868246 /* Share.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Share.m; sourceTree = "<group>"; };
-		7CC262C816F881E600868246 /* LearnersCloudSamplesVideos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LearnersCloudSamplesVideos.h; sourceTree = "<group>"; };
-		7CC262C916F881E600868246 /* LearnersCloudSamplesVideos.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnersCloudSamplesVideos.m; sourceTree = "<group>"; };
 		7CC262CA16F881E600868246 /* AdminDashBoard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdminDashBoard.h; sourceTree = "<group>"; };
 		7CC262CB16F881E600868246 /* AdminDashBoard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdminDashBoard.m; sourceTree = "<group>"; };
 		7CC262CC16F881E600868246 /* Report.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Report.h; sourceTree = "<group>"; };
@@ -337,7 +345,6 @@
 		7CC263A116F8876000868246 /* UnderlinedButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnderlinedButton.m; sourceTree = "<group>"; };
 		7CC263A216F8876000868246 /* ActivityIndicator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActivityIndicator.h; sourceTree = "<group>"; };
 		7CC263A316F8876000868246 /* ActivityIndicator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActivityIndicator.m; sourceTree = "<group>"; };
-		7CC263A416F8876000868246 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		7CC263A916F88B4000868246 /* TV_biology_header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TV_biology_header.png; sourceTree = "<group>"; };
 		7CC263AA16F88B4000868246 /* TV_biology_header@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TV_biology_header@2x.png"; sourceTree = "<group>"; };
 		7CC263AD16F88DBE00868246 /* hero_biology.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hero_biology.png; sourceTree = "<group>"; };
@@ -350,6 +357,20 @@
 		7CC263BA16F88FD500868246 /* website_promo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "website_promo@2x.png"; sourceTree = "<group>"; };
 		7CEA7D1A16FC7F9200DB5C0B /* LearnersCloudTermsonapps.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = LearnersCloudTermsonapps.pdf; sourceTree = "<group>"; };
 		7CEA7D1B16FC7F9200DB5C0B /* HowtouseVideoStreamer.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = HowtouseVideoStreamer.pdf; sourceTree = "<group>"; };
+		7CF81A661735AFFD00ADB961 /* subscribe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = subscribe.png; sourceTree = "<group>"; };
+		7CF81A681735B01200ADB961 /* 70-tv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "70-tv.png"; sourceTree = "<group>"; };
+		7CF81A6A1735B02D00ADB961 /* LearnersCloudSamplesVideos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LearnersCloudSamplesVideos.h; sourceTree = "<group>"; };
+		7CF81A6B1735B02D00ADB961 /* LearnersCloudSamplesVideos.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnersCloudSamplesVideos.m; sourceTree = "<group>"; };
+		7CF81A6C1735B04C00ADB961 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		7CF81A6E1735B06300ADB961 /* TrailerPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrailerPlayer.h; sourceTree = "<group>"; };
+		7CF81A6F1735B06300ADB961 /* TrailerPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrailerPlayer.m; sourceTree = "<group>"; };
+		7CF81A701735B08000ADB961 /* Maths.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Maths.png; sourceTree = "<group>"; };
+		7CF81A711735B08000ADB961 /* English.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = English.png; sourceTree = "<group>"; };
+		7CF81A721735B08000ADB961 /* Physics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Physics.png; sourceTree = "<group>"; };
+		7CF81A731735B08000ADB961 /* Biology.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Biology.png; sourceTree = "<group>"; };
+		7CF81A741735B08000ADB961 /* Chemistry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chemistry.png; sourceTree = "<group>"; };
+		7CF81A751735B08000ADB961 /* Testimonial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Testimonial.png; sourceTree = "<group>"; };
+		7CF81A7C1735B09300ADB961 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -357,6 +378,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CF81A7D1735B09300ADB961 /* AVFoundation.framework in Frameworks */,
 				7CC2639C16F8835900868246 /* libfacebook_ios_sdk.a in Frameworks */,
 				7CC2639D16F8835900868246 /* libGoogleAnalytics.a in Frameworks */,
 				7CC2639B16F8833700868246 /* libsqlite3.dylib in Frameworks */,
@@ -378,6 +400,7 @@
 		7CC2622616F8801000868246 = {
 			isa = PBXGroup;
 			children = (
+				7CF81A7C1735B09300ADB961 /* AVFoundation.framework */,
 				7CC262F016F8826D00868246 /* Table Cells */,
 				7CC262EF16F8826200868246 /* Files */,
 				7CC262DF16F8824200868246 /* facebook-ios-sdk */,
@@ -426,13 +449,13 @@
 			children = (
 				7CC2624116F8801000868246 /* AppDelegate.h */,
 				7CC2624216F8801000868246 /* AppDelegate.m */,
+				7CF81A6C1735B04C00ADB961 /* MainWindow.xib */,
 				7CC2639E16F8876000868246 /* TabBar.h */,
 				7CC2639F16F8876000868246 /* TabBar.m */,
 				7CC263A016F8876000868246 /* UnderlinedButton.h */,
 				7CC263A116F8876000868246 /* UnderlinedButton.m */,
 				7CC263A216F8876000868246 /* ActivityIndicator.h */,
 				7CC263A316F8876000868246 /* ActivityIndicator.m */,
-				7CC263A416F8876000868246 /* MainWindow.xib */,
 				7CC2623916F8801000868246 /* Supporting Files */,
 			);
 			path = BiologyVideoStreameriPhone;
@@ -457,6 +480,7 @@
 				7CC2627516F8817D00868246 /* btn_videos_deselected.png */,
 				7CC2627616F8817D00868246 /* btn_share_deselected.png */,
 				7CC2627716F8817D00868246 /* 60-signpost.png */,
+				7CF81A681735B01200ADB961 /* 70-tv.png */,
 			);
 			name = Icons;
 			sourceTree = "<group>";
@@ -470,6 +494,7 @@
 				7CC263AE16F88DBE00868246 /* hero_biology@2x.png */,
 				7CC2628216F881A000868246 /* free_and_paid_apps.png */,
 				7CC2628316F881A000868246 /* free_and_paid_apps@2x.png */,
+				7CF81A661735AFFD00ADB961 /* subscribe.png */,
 				7CC2628416F881A000868246 /* back320x450.png */,
 				7CC2628516F881A000868246 /* back320x450@2x.png */,
 				7CC2628616F881A000868246 /* Default-568h@2x.png */,
@@ -491,6 +516,12 @@
 				7CC2629816F881A000868246 /* icon_share_on_facebook.png */,
 				7CC2629916F881A000868246 /* icon_share_on_twitter.png */,
 				7CC2629A16F881A000868246 /* share_intro.png */,
+				7CF81A701735B08000ADB961 /* Maths.png */,
+				7CF81A711735B08000ADB961 /* English.png */,
+				7CF81A721735B08000ADB961 /* Physics.png */,
+				7CF81A731735B08000ADB961 /* Biology.png */,
+				7CF81A741735B08000ADB961 /* Chemistry.png */,
+				7CF81A751735B08000ADB961 /* Testimonial.png */,
 			);
 			name = Resource;
 			sourceTree = "<group>";
@@ -512,6 +543,8 @@
 				7CC262C416F881C900868246 /* CustomCell.m */,
 				7CC262C516F881C900868246 /* Share.h */,
 				7CC262C616F881C900868246 /* Share.m */,
+				7CF81A6E1735B06300ADB961 /* TrailerPlayer.h */,
+				7CF81A6F1735B06300ADB961 /* TrailerPlayer.m */,
 			);
 			name = ClientSideClasses;
 			sourceTree = "<group>";
@@ -519,8 +552,8 @@
 		7CC262C716F881D500868246 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7CC262C816F881E600868246 /* LearnersCloudSamplesVideos.h */,
-				7CC262C916F881E600868246 /* LearnersCloudSamplesVideos.m */,
+				7CF81A6A1735B02D00ADB961 /* LearnersCloudSamplesVideos.h */,
+				7CF81A6B1735B02D00ADB961 /* LearnersCloudSamplesVideos.m */,
 				7CC262CA16F881E600868246 /* AdminDashBoard.h */,
 				7CC262CB16F881E600868246 /* AdminDashBoard.m */,
 				7CC262CC16F881E600868246 /* Report.h */,
@@ -832,7 +865,6 @@
 				7CC2639716F882F200868246 /* 73.png in Resources */,
 				7CC2639816F882F200868246 /* 74.png in Resources */,
 				7CC2639916F882F200868246 /* 75.png in Resources */,
-				7CC263A816F8891900868246 /* MainWindow.xib in Resources */,
 				7CC263AB16F88B4000868246 /* TV_biology_header.png in Resources */,
 				7CC263AC16F88B4000868246 /* TV_biology_header@2x.png in Resources */,
 				7CC263AF16F88DBE00868246 /* hero_biology.png in Resources */,
@@ -849,6 +881,15 @@
 				7C2BECFC1700A73E00D3CEA3 /* GCSE-Biology-Exam-Board-OCR-21st-Century.pdf in Resources */,
 				7C2BECFD1700A73E00D3CEA3 /* GCSE-Biology-Exam-Board-Edexcel.pdf in Resources */,
 				7C2BECFE1700A73E00D3CEA3 /* GCSE-Biology-Exam-Board-AQA.pdf in Resources */,
+				7CF81A671735AFFD00ADB961 /* subscribe.png in Resources */,
+				7CF81A691735B01200ADB961 /* 70-tv.png in Resources */,
+				7CF81A6D1735B04C00ADB961 /* MainWindow.xib in Resources */,
+				7CF81A761735B08000ADB961 /* Maths.png in Resources */,
+				7CF81A771735B08000ADB961 /* English.png in Resources */,
+				7CF81A781735B08000ADB961 /* Physics.png in Resources */,
+				7CF81A791735B08000ADB961 /* Biology.png in Resources */,
+				7CF81A7A1735B08000ADB961 /* Chemistry.png in Resources */,
+				7CF81A7B1735B08000ADB961 /* Testimonial.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -859,11 +900,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CF81A7E1735B0AD00ADB961 /* LearnersCloudSamplesVideos.m in Sources */,
+				7CF81A7F1735B0AD00ADB961 /* TrailerPlayer.m in Sources */,
 				7CC263A516F888D700868246 /* TabBar.m in Sources */,
 				7CC263A616F888D700868246 /* UnderlinedButton.m in Sources */,
 				7CC263A716F888D700868246 /* ActivityIndicator.m in Sources */,
 				7CC262F416F882C400868246 /* ConfigObject.m in Sources */,
-				7CC262F516F882C400868246 /* LearnersCloudSamplesVideos.m in Sources */,
 				7CC262F616F882C400868246 /* AdminDashBoard.m in Sources */,
 				7CC262F716F882C400868246 /* Report.m in Sources */,
 				7CC262F816F882C400868246 /* Help.m in Sources */,
@@ -966,6 +1008,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = GCSE;
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
@@ -985,6 +1028,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = GCSE;
 				PROVISIONING_PROFILE = "862DB4E9-84B1-48F9-B1C3-AB045D92CAD8";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "862DB4E9-84B1-48F9-B1C3-AB045D92CAD8";

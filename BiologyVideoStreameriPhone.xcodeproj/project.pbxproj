@@ -764,6 +764,11 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = LearnersCloud;
+				TargetAttributes = {
+					7CC2622E16F8801000868246 = {
+						DevelopmentTeam = 9RNCM436XC;
+					};
+				};
 			};
 			buildConfigurationList = 7CC2622A16F8801000868246 /* Build configuration list for PBXProject "BiologyVideoStreameriPhone" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1026,6 +1031,7 @@
 		7CC2626116F8801000868246 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Joseph caxton (99S98QLWW3)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BiologyVideoStreameriPhone/BiologyVideoStreameriPhone-Prefix.pch";
 				INFOPLIST_FILE = "BiologyVideoStreameriPhone/BiologyVideoStreameriPhone-Info.plist";
@@ -1036,6 +1042,7 @@
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = GCSE;
+				PROVISIONING_PROFILE = "F4A3130D-9C63-4D23-AC16-B42EA32BF170";
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1044,8 +1051,8 @@
 		7CC2626216F8801000868246 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Theta Computer Services Limited (9RNCM436XC)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Theta Computer Services Limited (9RNCM436XC)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BiologyVideoStreameriPhone/BiologyVideoStreameriPhone-Prefix.pch";
 				INFOPLIST_FILE = "BiologyVideoStreameriPhone/BiologyVideoStreameriPhone-Info.plist";
@@ -1056,8 +1063,8 @@
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = GCSE;
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "56B7CFA2-BD4B-4B08-AACE-F2735DB4C475";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "56B7CFA2-BD4B-4B08-AACE-F2735DB4C475";
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};

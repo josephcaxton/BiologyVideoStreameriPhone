@@ -173,6 +173,7 @@
 		7CF81A7D1735B09300ADB961 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CF81A7C1735B09300ADB961 /* AVFoundation.framework */; };
 		7CF81A7E1735B0AD00ADB961 /* LearnersCloudSamplesVideos.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF81A6B1735B02D00ADB961 /* LearnersCloudSamplesVideos.m */; };
 		7CF81A7F1735B0AD00ADB961 /* TrailerPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF81A6F1735B06300ADB961 /* TrailerPlayer.m */; };
+		CDE4671F18DC75F800A23CF8 /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE4671E18DC75F800A23CF8 /* Images-2.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -384,6 +385,7 @@
 		7CF81A741735B08000ADB961 /* Chemistry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chemistry.png; sourceTree = "<group>"; };
 		7CF81A751735B08000ADB961 /* Testimonial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Testimonial.png; sourceTree = "<group>"; };
 		7CF81A7C1735B09300ADB961 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CDE4671E18DC75F800A23CF8 /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -471,6 +473,7 @@
 				7CC263A316F8876000868246 /* ActivityIndicator.m */,
 				7C239E5617AD22E500794B2C /* TransparentToolBar.h */,
 				7C239E5717AD22E500794B2C /* TransparentToolBar.m */,
+				CDE4671E18DC75F800A23CF8 /* Images-2.xcassets */,
 				7CC2623916F8801000868246 /* Supporting Files */,
 			);
 			path = BiologyVideoStreameriPhone;
@@ -834,6 +837,7 @@
 				7CC2636316F882F200868246 /* 21.png in Resources */,
 				7CC2636416F882F200868246 /* 22.png in Resources */,
 				7CC2636516F882F200868246 /* 23.png in Resources */,
+				CDE4671F18DC75F800A23CF8 /* Images-2.xcassets in Resources */,
 				7CC2636616F882F200868246 /* 24.png in Resources */,
 				7CC2636716F882F200868246 /* 25.png in Resources */,
 				7CC2636816F882F200868246 /* 26.png in Resources */,
@@ -1031,6 +1035,8 @@
 		7CC2626116F8801000868246 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Joseph caxton (99S98QLWW3)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BiologyVideoStreameriPhone/BiologyVideoStreameriPhone-Prefix.pch";
@@ -1051,6 +1057,8 @@
 		7CC2626216F8801000868246 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Theta Computer Services Limited (9RNCM436XC)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Theta Computer Services Limited (9RNCM436XC)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

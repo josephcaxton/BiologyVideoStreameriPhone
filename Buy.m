@@ -13,7 +13,7 @@
 
 @implementation Buy
 
-@synthesize ProductFromIstore,ProductsToIstore,ProductsToIStoreInArray,SortedDisplayProducts,observer;
+@synthesize ProductFromIstore,ProductsToIstore,ProductsToIStoreInArray,SortedDisplayProducts,observer,selectedproduct;
 
 int dontShowPriceList = 0;
 #pragma mark -
@@ -207,7 +207,7 @@ int dontShowPriceList = 0;
 	[numberFormatter setNumberStyle:NSNumberFormatterCurrencyStyle];
 	[numberFormatter setLocale:product.priceLocale];
 	
-	UIButton *BuyNow = [UIButton buttonWithType:UIButtonTypeRoundedRect];  
+	UIButton *BuyNow = [UIButton buttonWithType:UIButtonTypeCustom];  
 	
 	//[BuyNow setTitle:@""  forState:UIControlStateNormal];
 	BuyNow.frame = CGRectMake(150, 10, 100, 39);
@@ -237,18 +237,18 @@ int dontShowPriceList = 0;
 	appDelegate.buyScreen = self;
     int myTag = [sender tag];
     
-    SKProduct* SelectedProductid = [SortedDisplayProducts objectAtIndex:myTag];
+    selectedproduct = [SortedDisplayProducts objectAtIndex:myTag];
     
     
     // Store Selected ProductID in Delegate
     appDelegate.SelectProductID = nil;
-    appDelegate.SelectProductID = (NSString*)SelectedProductid.productIdentifier;
+    appDelegate.SelectProductID = (NSString*)selectedproduct.productIdentifier;
     
-   
-            
-    SKPayment *payment = [SKPayment paymentWithProduct:SelectedProductid];
-            [[SKPaymentQueue defaultQueue] addPayment:payment];
-           			
+    
+    
+    SKPayment *payment = [SKPayment paymentWithProduct:selectedproduct];
+    [[SKPaymentQueue defaultQueue] addPayment:payment];
+    
 	
 	
 }

@@ -40,17 +40,17 @@
 	listofItems = [[NSMutableArray alloc] init];
 	ImageNames = [[NSMutableArray alloc] init];
 	// Add items to the array this is hardcoded for now .. may need to be migrated to the database
-	[listofItems addObject:@"   Maths - Trailer"];
+	[listofItems addObject:@"      Maths - Trailer"];
 	[ImageNames addObject:@"Maths.png"];
-	[listofItems addObject:@"   English - Trailer"];
+	[listofItems addObject:@"      English - Trailer"];
 	[ImageNames addObject:@"English.png"];
-	[listofItems addObject:@"   Physics - Trailer"];
+	[listofItems addObject:@"      Physics - Trailer"];
 	[ImageNames addObject:@"Physics.png"];
-	[listofItems addObject:@"   Chemistry - Trailer"];
+	[listofItems addObject:@"      Chemistry - Trailer"];
 	[ImageNames addObject:@"Chemistry.png"];
-    [listofItems addObject:@"    Biology - Trailer"];
+    [listofItems addObject:@"      Biology - Trailer"];
     [ImageNames addObject:@"Biology.png"];
-    [listofItems addObject:@"    Hear from Students"];
+    [listofItems addObject:@"      Hear from Students"];
     [ImageNames addObject:@"Testimonial.png"];
     //	[listofItems addObject:@"The Ruined Maid"];
     //	[ImageNames addObject:@"Ruined_maid.png"];
@@ -165,7 +165,7 @@
         NSString *PromoImagePath = [[NSBundle mainBundle] pathForResource:@"website_promo" ofType:@"png"];
         UIImage *PromoImage = [[UIImage alloc] initWithContentsOfFile:PromoImagePath];
         PromoImageView = [[UIImageView alloc] initWithImage:PromoImage];
-        PromoImageView.frame = CGRectMake(0, 10.0, 300, 250);
+        PromoImageView.frame = CGRectMake(10, 10.0, 300, 250);
         [PromoView addSubview:PromoImageView];
         [cell.contentView addSubview:PromoView];
         
@@ -215,7 +215,7 @@
                 TrailerPlayer *VP1 = [[TrailerPlayer alloc] initWithNibName:nil bundle:nil];
                 VP1.VideoFileName =@"MathsTtrailerv6";
                 VP1.ServerLocation = @"http://learnerscloud.com/iosStreamv2/maths/";
-                VP1.hidesBottomBarWhenPushed = YES;
+                //VP1.hidesBottomBarWhenPushed = YES;
                 [self.navigationController pushViewController:VP1 animated:NO];
             }
                 break;
@@ -225,7 +225,7 @@
                 TrailerPlayer *VP2 = [[TrailerPlayer	alloc] initWithNibName:nil bundle:nil];
                 VP2.VideoFileName =@"EnglishTrailerv5";
                 VP2.ServerLocation = @"http://learnerscloud.com/iosStreamv2/english/";
-                VP2.hidesBottomBarWhenPushed = YES;
+                //VP2.hidesBottomBarWhenPushed = YES;
                 [self.navigationController pushViewController:VP2 animated:YES];
             }
                 break;
@@ -236,7 +236,7 @@
                TrailerPlayer *VP3 = [[TrailerPlayer	alloc] initWithNibName:nil bundle:nil];
                 VP3.VideoFileName =@"PhysicsTrailerV5";
                 VP3.ServerLocation =@"http://learnerscloud.com/iosStreamv2/Physics/";
-                VP3.hidesBottomBarWhenPushed = YES;
+                //VP3.hidesBottomBarWhenPushed = YES;
                 [self.navigationController pushViewController:VP3 animated:YES];
             }
                 break;
@@ -246,7 +246,7 @@
                 TrailerPlayer *VP4 = [[TrailerPlayer	alloc] initWithNibName:nil bundle:nil];
                 VP4.VideoFileName =@"ChemistryPromoFINAL";
                 VP4.ServerLocation = @"http://learnerscloud.com/iosStreamv2/Chemistry/";
-                VP4.hidesBottomBarWhenPushed = YES;
+                //VP4.hidesBottomBarWhenPushed = YES;
                 [self.navigationController pushViewController:VP4 animated:YES];
                 
             }
@@ -258,7 +258,7 @@
                 TrailerPlayer *VP5 = [[TrailerPlayer	alloc] initWithNibName:nil bundle:nil];
                 VP5.VideoFileName =@"BIO-Trailer";
                 VP5.ServerLocation = @"http://learnerscloud.com/iosStreamv2/Biology/";
-                VP5.hidesBottomBarWhenPushed = YES;
+                //VP5.hidesBottomBarWhenPushed = YES;
                 [self.navigationController pushViewController:VP5 animated:YES];
             }
                 
@@ -270,7 +270,7 @@
                 TrailerPlayer *VP6 = [[TrailerPlayer	alloc] initWithNibName:nil bundle:nil];
                 VP6.VideoFileName =@"TESTIMONIALSTUDENTS";
                 VP6.ServerLocation = @"http://learnerscloud.com/iosStreamv2/Trailers/";
-                VP6.hidesBottomBarWhenPushed = YES;
+                //VP6.hidesBottomBarWhenPushed = YES;
                 [self.navigationController pushViewController:VP6 animated:YES];
             }
                 

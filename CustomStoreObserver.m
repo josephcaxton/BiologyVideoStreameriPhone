@@ -226,7 +226,8 @@
     else
     {
     
-   AlertTitle = @"If you need to restore your subscriptions on another device, you will need to provide an email address and a password. Do you want to enter email address and a password?";
+        AlertTitle = @"You can now create a Multi-Device Account. If you do not do this you will only be able to access your subscriptions on this device. This account will allow you to access your subscription on all your other devices. Do you want to create an account?";
+        
     }
     UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:AlertTitle message:@"\n" delegate:self cancelButtonTitle:@"No" otherButtonTitles:@"Yes", nil];
     alertView.tag = 1212;
@@ -237,7 +238,32 @@
 
 -(void)GetUsernameAndPassword{
     //@"If you need to restore your subscriptions on another device, please provide your email address and a password"
-    NSString *myTitle = @"Enter your details";
+    
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Registration"
+                                                        message:[NSString stringWithFormat:@"Enter details"]
+                                                       delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"Done",nil];
+    
+    [alertView setAlertViewStyle:UIAlertViewStyleLoginAndPasswordInput];
+    [alertView show];
+    
+    UITextField *utextfield = [alertView textFieldAtIndex:0];
+    utextfield.placeholder = @"EmailAddress";
+    utextfield.tag = 1717;
+    utextfield.enablesReturnKeyAutomatically = NO;
+    [utextfield setKeyboardType:UIKeyboardTypeEmailAddress];
+    [utextfield setDelegate:self];
+    
+    UITextField	*ptextfield = [alertView textFieldAtIndex:1];
+    ptextfield.placeholder = @"Password";
+    ptextfield.tag = 1818;
+    ptextfield.enablesReturnKeyAutomatically = NO;
+    [ptextfield setDelegate:self];
+    
+    alertView.tag = 1313;
+    
+
+    
+    /* NSString *myTitle = @"Enter your details";
     UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:myTitle message:@"\n \n \n \n" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"OK", nil];
 
     	
@@ -261,7 +287,7 @@
     [ptextfield setDelegate:self];   
     [alertView addSubview:ptextfield];
     
-    alertView.tag = 1313;
+    alertView.tag = 1313;*/
 
     	 
     	// Move a little to show up the keyboard
@@ -402,6 +428,14 @@
        
         EmailAddress = @"";
         Password = @"";
+        // User did not supply EmailAdress so store info in UserDefaults
+        NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
+        [prefs setObject:@"none" forKey:@"LCNOAuth"];
+        [prefs setObject:MyDeviceId forKey:@"LCNOAuthDeviceID"];
+        [prefs synchronize];
+        
+        
+
     }
         
              
@@ -417,7 +451,8 @@
     NSMutableURLRequest *req = [NSMutableURLRequest requestWithURL:url];
     
     VerificationAppID = @"12"; //Biology iPhone
-    
+    //VerificationAppID = @"99"; // test
+
     NSString *FullString = [NSString stringWithFormat:@"productIdentifier=%@&DeviceID=%@&days=%@&transactionIdentifier=%@&B64receipt=%@&email=%@&password=%@&AppID=%@",FinalProductID,MyDeviceId,SubscriptionInDays,TransactionID,EncodedReceipt,EmailAddress,Password,VerificationAppID];
     
     /*NSString * encodedString = (__bridge_transfer NSString *)CFURLCreateStringByAddingPercentEscapes(
